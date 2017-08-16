@@ -8,11 +8,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>login</title>
+    <title>SignUp</title>
 </head>
 <body>
-<h2 align="center">欢迎登录</h2>
-<form name=loginForm action="/userLogin/signin" method=post>
+<h2 align="center">欢迎注册</h2>
+<form name=loginForm action="/userLogin/signup" method=post>
     <table align="center">
         <tr>
             <td>用户名：</td><td><input type=text name=nickname /></td>
@@ -23,10 +23,11 @@
         <tr>
             <td colspan="2",align="center">
                 <input type="submit" value="submit" />
-                <input type="button" value="signUp" onclick="window.location.href='/userLogin/signup'" formmethod="get"/>
+                <input type="reset" value="reset"/>
             </td>
         </tr>
     </table>
+
 </form>
 </body>
 </html>
